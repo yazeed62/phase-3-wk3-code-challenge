@@ -11,6 +11,6 @@ product4 = Product.create(name: "marker pen", price: 70)
 product5 = Product.create(name: "ink pen", price: 100)
 
 puts "Creating reviews..."
-review1 = Review.create(content: "I like the book", rating: 5, user_id: user1.id, product_id: product1.id)
-review2 = Review.create(content: "Didn't like the letter opener", rating: 2, user_id: user2.id, product_id: product2.id)
-review3 = Review.create(content: "It's helping", rating: 3, user_id: user2.id, product_id: product3.id)
+review1 = Review.create(comment: "I like the book", rating: 5, user_id: user1.id, product_id: product1.id)
+review2 = Review.create(comment: "Didn't like the letter opener", rating: 2, user_id: user2.id, product_id: product2.id)
+review3 = Review.create(comment: "It's helping", rating: 3, user_id: user2.id, product_id: product3.id)
